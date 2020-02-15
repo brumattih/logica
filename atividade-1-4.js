@@ -8,5 +8,7 @@ var user = require('readline-sync')
 var maca = user.question("Digite o número de maças compradas: ")
 
 if (maca < 12) {
-    console.log()
+    console.log(`O valor total da compra é de: R$${maca * 0.30} REAIS`)
+} else {
+    console.log(`O valor total da compra é de : R$${maca * 0.25} REAIS`)
 }
