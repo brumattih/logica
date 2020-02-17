@@ -2,9 +2,9 @@
 
 var user = require('readline-sync')
 
-var num1 = user.question("Digite o primeiro número inteiro: ")
-var num2 = user.question("Digite o segundo número inteiro: ")
-var num3 = user.question("Digite o terceiro número inteiro: ")
+var num1 = user.questionInt("Digite o primeiro número inteiro: ")
+var num2 = user.questionInt("Digite o segundo número inteiro: ")
+var num3 = user.questionInt("Digite o terceiro número inteiro: ")
 
 if (num1 < num2 && num1 < num3) {
     if (num2 < num3) {
