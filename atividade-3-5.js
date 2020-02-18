@@ -17,4 +17,4 @@ while (numero > 0) {
     numero = numero - 1
 }
 console.log(`O resultado é: ${resultado}`)
-
+//
