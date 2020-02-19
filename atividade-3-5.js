@@ -10,7 +10,7 @@
 var user = require('readline-sync')
 var numero = user.questionInt("Digite um número para ser a base de uma potência: ")
 var potencia = user.questionInt("Agora digite um número para ser a potência: ")
-var resultado = 0
+var resultado = 1
 
 while (numero > 0) {
     resultado = resultado + potencia
