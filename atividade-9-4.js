@@ -9,10 +9,11 @@ var user = require('readline-sync')
 
 function calculaTabuada(N) {
 
-    for (let index = 1; index < N; index++) {
-        console.log (index * N)
+    for (let index = 1; index <= N; index++) {
+        console.log(`${index} X ${N} = ${index * N}`)
+        
     }
- return 
+    
 }
 
 var numero = user.questionInt("Digite um número: ")
