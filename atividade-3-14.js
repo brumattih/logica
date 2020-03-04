@@ -22,3 +22,5 @@ if (idadeAux >= idadeAux2) {
     console.log(`A MENOR é ${idadeAux}`)
 
 }
+
+//teste 
