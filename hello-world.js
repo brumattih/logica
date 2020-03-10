@@ -1,5 +1,6 @@
-var user = require('readline-sync')
+var modulo = require('./meu_modulo')
 
-var resultadoDoUsuario = user.question("Insira sua pergunta aqui: ")
+modulo.moduloArbyte()
+modulo.moduloArbyte2()
 
-console.log(`O usuário inseriu: ${resultadoDoUsuario} `)
+//modulo()

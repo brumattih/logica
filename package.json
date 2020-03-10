@@ -1,0 +1,28 @@
+{
+  "name": "logica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "atividade-1-1.js",
+  "dependencies": {
+    "canivetesuiconode": "^3.0.0",
+    "fasam-imc-calc": "0.0.4",
+    "g": "^2.0.1",
+    "notas-universitarias-util": "0.0.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brumattih/logica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brumattih/logica/issues"
+  },
+  "homepage": "https://github.com/brumattih/logica#readme"
+}
