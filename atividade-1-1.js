@@ -12,3 +12,5 @@ if (idade >= 16) {
 } else {
     console.log("Você não pode votar!")
 }
+
+console.log("Esse é meu primeiro pull request, apenas para um teste!")
